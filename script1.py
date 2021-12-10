@@ -1,3 +1,5 @@
+#this script is for checking number of running and stopped instances in a particular VPC by its ID. 
+
 import boto3
 
 ec2 = boto3.client('ec2')
